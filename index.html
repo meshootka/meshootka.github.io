@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Me_shoot_ka - играем в игры ИзДецтва</title>
+        <meta charset="utf-8">
+        <link href="css/main.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="menu">
+            <a href="https://www.youtube.com/channel/UCZqEzlRb7Vw7qkHp-7hA5mA" class="menu__youtube-link" target="_blank">
+                <img src="imgs/youtube.png" alt="youtube" class="menu-youtube-img">
+            </a>
+            <a href="https://www.twitch.tv/me_shoot_ka" class="menu__twich-link" target="_blank">
+                <img src="imgs/twich.png" alt="twich" class="menu-twich-img">
+            </a>
+            <div class="menu-box" id="menu">
+                <a href="#meet" class="nav-box nav-box_green">
+                    <img src="imgs/icon-helmet.png" alt="helmet" class="nav-box__img">
+                    <p class="nav-box__link-name">знакомство</p>
+                </a>
+                <a href="#games" class="nav-box nav-box_blue">
+                    <img src="imgs/icon-sword.png" alt="sword" class="nav-box__img">
+                    <p class="nav-box__link-name">мои игры</p>
+                </a>
+                <a href="#info" class="nav-box nav-box_yellow">
+                    <img src="imgs/icon-papper.png" alt="scroll" class="nav-box__img">
+                    <p class="nav-box__link-name">информация</p>
+                </a>
+                <a href="#plans" class="nav-box nav-box_dark-blue">
+                    <img src="imgs/icon-castle.png" alt="castle" class="nav-box__img">
+                    <p class="nav-box__link-name">мои планы</p>
+                </a>
+            </div>
+        </div>
+        <!--menu-mobile-->
+        <div class="m-menu">
+            <a href="https://www.youtube.com/channel/UCZqEzlRb7Vw7qkHp-7hA5mA" target="_blank" class="m-menu__link m-youtube">
+                <img src="imgs/youtube.png" alt="youtube" class="m-youtube__img">
+            </a>
+            <a href="https://www.twitch.tv/me_shoot_ka" target="_blank" class="m-menu__link m-twich">
+                <img src="imgs/twich.png" alt="twich" class="m-twich__img">
+            </a>
+        </div>
+        <div class="container intro-bg" id="meet">
+            <div class="content">
+                <h1 class="intro-title"><span class="mark">привет</span> меня зовут <span class="underline">me.shoot.ka</span></h1>
+                <p class="description-text description-text_padding">Я готов вас развлекать на своих стримах. Кстати, о них. Я стримлю каждый день, кроме первого в неделе, с 18:00 до полуночи.
+                    Но, думаю, ты и так это знаешь. Просто напомнил ;)
+                </p>
+                <div class="about-me-box">
+                    <div class="gif-container">
+                        <img src="imgs/tedslow.gif" alt="bear" class="gif">
+                    </div>
+                    <div class="about-info-container">
+                        <p class="about-text about-text_cursive">В двух словах обо мне. Стримить я начал два года назад, 
+                            как раз в эпоху развтия twich. Первые стримы. первые зрители. Первые донаты.
+                            Это было очень волнительно, но о-о-о-очень круто. Сегодня у нас уже чуть больше
+                            тысячи и это большая радость для меня. Спасибо всем вам за то, что смотрите меня.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="under-menu"></div>
+        </div>
+        <div class="container bg2">
+            <div class="content content_p-bottom">
+                <div class="decor-block" id="games"></div>
+                <div class="games-title">
+                    <h1><span class="mark">Мои игры</span></h1>
+                    <p class="description-text description-text_t-padding">Вообще, я из тех людей, кто играет во все, что играется, а если оно не играется - 
+                        толкаю и начинаю играть :)
+                    </p>
+                </div>
+                <p class="description-text description-text_padding">Но есть две игры, покорившие мое сердце. <span class="text-mark">Это Lineage II и World of Warcraft.</span>  С обеими я 
+                    познакомился где-то в 10м классе с разницей плюс минус полгода. Сначала, я открыл для себя Lineage на городском сервере, 
+                    где играло около двух тысяч человек. У нас в городе было всего две площадки для игры: alkar и trifle. Поэтому игроки одного 
+                    сервера могли оказаться жителями одного района. А это дружба! Или конфликт! Короче говоря, социальная часть игры выходила за 
+                    рамки самой игры. 
+                
+                </p>
+                <div class="games-video-block">
+                    <div class="games-video-inner">
+                        <h1 class="games-video-inner__title">Lineage II</h1>
+                        <video autoplay muted loop class="video">
+                            <source src="l2.mp4" type="video/mp4">
+                            <source src="l2.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="games-video-inner">
+                        <p class="description-text text-indent description-text_l-padding">Помню первый клан, где его лидер водил меня за руку по локациям и показывал каких монстров убивать, какие ресурсы собирать, 
+                            а какие продавать. К слову, это были четвертые хроники, Scions of destiny, а я был молодым некромантом. Но даже сила тьмы не спасла меня, от гнева лидера 
+                            клана, когда огр, убивший меня стащил мои перчатки кармиана, подаренные мне кланом.
+                        </p>
+                        <p class="description-text text-indent description-text_l-padding"> А как я обмывал свой меч валхалы, выданный мне за боевые заслуги. 
+                            Сейчас игра изменилась, но в ней все равно есть место сказке и тому старому, волнующему фентезийному миру.
+                        </p>
+                    </div>
+                </div>
+                <div class="line-box">
+                    <div class="line-box__quadro"></div>
+                    <div class="line-box__quadro"></div>
+                    <div class="line-box__quadro"></div>
+                    <div class="line-box__line"></div>
+                </div>
+                <div class="games-video-block">
+                    <div class="games-video-inner">
+                        <p class="description-text text-indent description-text_r-padding">Позже, я открыл для себя удивительную игру на удивительно неработоспособном сервере. Это было мое первое знакомство с WoW’ом. 
+                            К сожалению, я не застал классическую версию игры и сразу начал играть на следующем дополнении Burning Crusade. Почему-то я решил, что хочу ассоциировать себя с зеленым, 
+                            мускулистым и, немного, зубастым орком. Орком-воином. Как же учеба мешала мне тогда становится храбрым сыном Орды. Между тем, мой персонаж все глубже и глубже погружал меня 
+                            в этот сказочный и абсолютно новый мир. Все было хорошо, до тех пор, пока я не создал себе персонажа за Альянс. Человек-разбойник. Это была сто процентная ассимиляция игрока и 
+                            персонажа. Лучшим развлечением для меня стало выслеживание и преследование жертвы, прячась в тенях.
+                        </p>
+                    </div>
+                    <div class="games-video-inner">
+                        <h1 class="games-video-inner__title">Warcraft</h1>
+                        <video autoplay muted loop class="video">
+                            <source src="wow.mp4" type="video/mp4">
+                            <source src="wow.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="under-menu"></div>
+        </div>
+        <div class="container bg3">
+            <div class="content content_p-bottom bg-upper-layer">
+                <div class="decor-block" id="info"></div>
+                <div class="games-title">
+                    <h1><span class="mark">Информация</span></h1>
+                </div>
+                <div class="info-box info-box_bg1 info-box_margin">
+                    <div class="info-box-inner">
+                        <h1 class="info-box-inner__title">Обо мне:</h1>
+                        <ul class="info-box-list">
+                            <li class="info-box-list__item">Зовут: Виталий</li>
+                            <li class="info-box-list__item">Возраст: 28 лет</li>
+                            <li class="info-box-list__item">Живу: Днепропетровская область</li>
+                            <li class="info-box-list__item">Играю: Lineage II, World of Warcraft</li>
+                        </ul>
+                        <img src="imgs/info/manlittle.png" alt="man" class="info-box-inner__img">
+                    </div>
+                </div>
+                <div class="info-box info-box_bg2 info-box_margin">
+                    <div class="info-box-inner">
+                        <h1 class="info-box-inner__title">Мой пк:</h1>
+                        <ul class="info-box-list">
+                            <li class="info-box-list__item">ОЗУ: 16 gb DDR4 3200</li>
+                            <li class="info-box-list__item">Процессор: AMD Ryzen 5 2600</li>
+                            <li class="info-box-list__item">Видеокарта: GeForce GTX 1660Ti</li>
+                            <li class="info-box-list__item">SSD: Samsung SSD 970 EVO Plus 250gb</li>
+                            <li class="info-box-list__item">Материнская плата: gigabyte B450 Aorus Elite</li>
+                        </ul>
+                        <img src="imgs/info/sword.png" alt="man" class="info-box-inner__img">
+                    </div>
+                </div>
+                <div class="info-box info-box_bg3 info-box_margin">
+                    <div class="info-box-inner">
+                        <h1 class="info-box-inner__title">Донат</h1>
+                        <p class="description-text description-text_m-left">Если у вас есть желание поддержать меня копеечкой, 
+                            то всегда можно сделать это через DontationAlerts. Я буду безумно благодарен каждому! Спасибо за поддержку!</p>
+                        <img src="imgs/info/gold.png" alt="man" class="info-box-inner__img info-box-inner__img_fix">
+                    </div>
+                </div>
+            </div>
+            <div class="under-menu"></div>
+            </div>
+        </div>
+        <div class="container bg4">
+            <div class="content">
+                <div class="decor-block" id="plans"></div>
+                <div class="games-title games-title_m-margin-decline">
+                    <h1><span class="mark">Мои цели</span></h1>
+                </div>
+                <p class="description-text description-text_padding">Летом этого года (2019) компания Blizzard обещала порадовать всех фанатов игры
+                     World of Warcraft перезапуском классической версии игры.
+                </p>
+                <div class="target-box">
+                    <div class="box-inner">
+                        <p class="target-box-text">Я с нетерпением жду, когда это произойдёт, чтобы поиграть в ту игру, которую 
+                            не застал. Возможно, там начнется новая история нового персонажа. К тому времени я надеюсь накопить 
+                            денег на новый микрофон для качественного погружения себя и вас в этот фентезийный мир…
+                        </p>
+                    </div>
+                    <div class="box-inner">
+                        <img src="imgs/marklittle.png" class="box-inner__attention"></img>
+                        <img src="imgs/info/roguelittle.png" alt="rogue" class="box-inner__img">
+                    </div>
+                </div>
+            </div>
+            <div class="under-menu"></div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $("#menu, #m-menu, #footer-menu").on("click","a", function (event) {
+                    event.preventDefault();
+                    var id  = $(this).attr('href'),
+                    top = $(id).offset().top;
+                    $('body,html').animate({scrollTop: top}, 1000);
+                });
+            })
+        </script>
+    </body>
+</html>
